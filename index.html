@@ -11,15 +11,12 @@
 		</style>
 	</head>
 	<body>
-		
     <canvas id="c"></canvas>
   
     <script type="module">
     	import * as THREE from 'https://threejsfundamentals.org/threejs/resources/threejs/r132/build/three.module.js';
 import {OrbitControls} from 'https://threejsfundamentals.org/threejs/resources/threejs/r132/examples/jsm/controls/OrbitControls.js';
 import {GLTFLoader} from 'https://threejsfundamentals.org/threejs/resources/threejs/r132/examples/jsm/loaders/GLTFLoader.js';
-	    
-	    
 
 function main() {
   const canvas = document.querySelector('#c');
@@ -38,10 +35,10 @@ function main() {
 
   const scene = new THREE.Scene();
   scene.background = new THREE.Color('black');
-	
 
 
- {
+
+  {
     const skyColor = 0xB1E1FF;  // light blue
     const groundColor = 0xB97A20;  // brownish orange
     const intensity = 1;
